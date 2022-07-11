@@ -1,0 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
+ .fontT{font-family: 'Fredoka', sans-serif;}
+ @media only screen and (min-width:1024px) {
+    .background-black{background-image: url("./main-background.webp")}
+ }
+ .anim-pause{animation-duration: 0ms ! important}
+ .pointerNo{pointer-events: none}
+ 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
